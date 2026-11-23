@@ -40,4 +40,4 @@ Repeat with flight-08a-lemniscate, flight-16a-trackRATM, flight-06a-ellipse, fli
 
 The training directory records the image split and settings. Hardware timing with the original model requires the matching checkpoint. Its SHA-256 is recorded in continuous.py. A newly trained model may yield different outputs. The 72 archived measurements describe the original workstation.
 
-See [third-party notices](THIRD_PARTY_NOTICES.md) for the dataset credit and terms. Cite the versioned [software release](https://github.com/realiikun/racing-gate-replay/releases/tag/v1.0.0) and the source dataset when using these results.
+See [third-party notices](THIRD_PARTY_NOTICES.md) for the dataset credit and terms. Cite the versioned software release (v1.0.0) and the source dataset when using these results.
