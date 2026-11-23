@@ -1,0 +1,8 @@
+{
+  "python": "3.11.15",
+  "torch": "2.11.0+cu130",
+  "ultralytics": "8.4.56",
+  "cv2": "4.13.0",
+  "cuda_available": true,
+  "device": "NVIDIA GeForce RTX 5060 Ti"
+}

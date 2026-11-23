@@ -1,0 +1,90 @@
+{
+  "flight-03a-ellipse": {
+    "frames": 2903,
+    "calls": 351,
+    "returns": 350,
+    "flight_seconds": 24.407978,
+    "new_inferences": 288,
+    "min_median_max_return_ms": [
+      47.038,
+      50.299499999999995,
+      53.906
+    ],
+    "actions": {
+      "wait": {
+        "births": 61,
+        "retained_or_updated": 634
+      },
+      "aligned": {
+        "births": 38,
+        "retained_or_updated": 657
+      },
+      "legacy": {
+        "births": 55,
+        "retained_or_updated": 642
+      }
+    },
+    "replay_compute_seconds": 17.044338699997752
+  },
+  "flight-08a-lemniscate": {
+    "frames": 3081,
+    "calls": 361,
+    "returns": 360,
+    "flight_seconds": 25.665771,
+    "new_inferences": 325,
+    "min_median_max_return_ms": [
+      46.889,
+      49.897999999999996,
+      56.893
+    ],
+    "actions": {
+      "wait": {
+        "births": 72,
+        "retained_or_updated": 478
+      },
+      "aligned": {
+        "births": 50,
+        "retained_or_updated": 499
+      },
+      "legacy": {
+        "births": 65,
+        "retained_or_updated": 484
+      }
+    },
+    "replay_compute_seconds": 25.645661599999585
+  },
+  "flight-16a-trackRATM": {
+    "frames": 5418,
+    "calls": 634,
+    "returns": 631,
+    "flight_seconds": 45.191602,
+    "new_inferences": 583,
+    "min_median_max_return_ms": [
+      46.876,
+      49.935,
+      56.313
+    ],
+    "actions": {
+      "wait": {
+        "births": 184,
+        "retained_or_updated": 1010
+      },
+      "aligned": {
+        "births": 134,
+        "retained_or_updated": 1053
+      },
+      "legacy": {
+        "births": 197,
+        "retained_or_updated": 991
+      }
+    },
+    "replay_compute_seconds": 58.172554999997374
+  },
+  "configuration": {
+    "opencv": "4.13.0",
+    "numpy": "2.2.6",
+    "weights_sha256": "32412cb9782744fa0e8e2b1bc96ace4b596c76fa2e8faf554326b2cbc97c87c3",
+    "service_us": 46686,
+    "detection_period_us": 66666.66666666667
+  }
+}

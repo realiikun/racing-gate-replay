@@ -1,0 +1,94 @@
+{
+  "delay_ms": 50.0,
+  "flights": [
+    {
+      "flight": "flight-03a-ellipse",
+      "delay_us": 50000,
+      "returns": 350,
+      "actions": {
+        "wait": {
+          "bad_percent": 40.340617085912456,
+          "unmatched_s": 6.421423000000005
+        },
+        "aligned": {
+          "bad_percent": 28.593921173365832,
+          "unmatched_s": 1.2722040000000001
+        },
+        "legacy": {
+          "bad_percent": 48.08634383176474,
+          "unmatched_s": 4.691778999999998
+        }
+      }
+    },
+    {
+      "flight": "flight-08a-lemniscate",
+      "delay_us": 50000,
+      "returns": 360,
+      "actions": {
+        "wait": {
+          "bad_percent": 66.0588719686349,
+          "unmatched_s": 10.866475
+        },
+        "aligned": {
+          "bad_percent": 50.97086382557846,
+          "unmatched_s": 4.536075000000004
+        },
+        "legacy": {
+          "bad_percent": 67.52143749569933,
+          "unmatched_s": 8.824724999999997
+        }
+      }
+    },
+    {
+      "flight": "flight-16a-trackRATM",
+      "delay_us": 50000,
+      "returns": 631,
+      "actions": {
+        "wait": {
+          "bad_percent": 79.00456175877666,
+          "unmatched_s": 21.454994000000056
+        },
+        "aligned": {
+          "bad_percent": 62.432700515756515,
+          "unmatched_s": 7.095849000000004
+        },
+        "legacy": {
+          "bad_percent": 72.5773332496847,
+          "unmatched_s": 18.32094000000001
+        }
+      }
+    }
+  ],
+  "order": [
+    "wait",
+    "aligned",
+    "legacy"
+  ],
+  "mean": [
+    61.801350271108014,
+    47.33249517156693,
+    62.728371525716256
+  ],
+  "intervals": [
+    [
+      40.340617085912456,
+      28.593921173365832,
+      48.08634383176474
+    ],
+    [
+      79.00456175877666,
+      62.432700515756515,
+      72.5773332496847
+    ]
+  ],
+  "diff": [
+    14.468855099541068,
+    11.746695912546622,
+    16.571861243020145
+  ],
+  "unmatched": [
+    38.74289200000006,
+    12.904128000000007,
+    31.837444000000005
+  ]
+}

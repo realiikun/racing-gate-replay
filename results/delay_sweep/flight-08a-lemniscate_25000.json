@@ -1,0 +1,19 @@
+{
+  "flight": "flight-08a-lemniscate",
+  "delay_us": 25000,
+  "returns": 360,
+  "actions": {
+    "wait": {
+      "bad_percent": 65.34973814046155,
+      "unmatched_s": 11.165568
+    },
+    "aligned": {
+      "bad_percent": 50.34122418194284,
+      "unmatched_s": 4.9222680000000025
+    },
+    "legacy": {
+      "bad_percent": 63.291053021893134,
+      "unmatched_s": 4.97711
+    }
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "n": 72,
+  "warmup_calls": 3,
+  "warmup_and_load_s": 21.046176800000467,
+  "median_service_ms": 39.045200000146,
+  "p95_service_ms": 46.68609000009383,
+  "mean_service_ms": 39.33393055558554,
+  "samples": [
+    {
+      "window": "flight-04a-ellipse__p25",
+      "source_id": "00754_1691758663398328",
+      "decode_ms": 1.5042000004541478,
+      "inference_ms": 36.36079999978392,
+      "total_ms": 37.86500000023807,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p25",
+      "source_id": "00788_1691758663682456",
+      "decode_ms": 1.809000000321248,
+      "inference_ms": 43.91940000004979,
+      "total_ms": 45.72840000037104,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p25",
+      "source_id": "00822_1691758663965396",
+      "decode_ms": 1.4433000005737995,
+      "inference_ms": 41.68949999984761,
+      "total_ms": 43.13280000042141,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p25",
+      "source_id": "00856_1691758664248621",
+      "decode_ms": 1.5560000001642038,
+      "inference_ms": 42.89139999946201,
+      "total_ms": 44.447399999626214,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p25",
+      "source_id": "00891_1691758664540799",
+      "decode_ms": 1.457900000787049,
+      "inference_ms": 45.03419999946345,
+      "total_ms": 46.4921000002505,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p25",
+      "source_id": "00925_1691758664823111",
+      "decode_ms": 1.3858000002073823,
+      "inference_ms": 38.56199999972887,
+      "total_ms": 39.94779999993625,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p25",
+      "source_id": "00959_1691758665106273",
+      "decode_ms": 1.461800000470248,
+      "inference_ms": 36.23590000006516,
+      "total_ms": 37.697700000535406,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p25",
+      "source_id": "00993_1691758665390028",
+      "decode_ms": 1.5440999995917082,
+      "inference_ms": 38.22740000032354,
+      "total_ms": 39.77149999991525,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p50",
+      "source_id": "01627_1691758670673069",
+      "decode_ms": 1.3393000008363742,
+      "inference_ms": 39.515199999186734,
+      "total_ms": 40.85450000002311,
+      "gates": 4
+    },
+    {
+      "window": "flight-04a-ellipse__p50",
+      "source_id": "01661_1691758670956762",
+      "decode_ms": 1.2734999991153018,
+      "inference_ms": 34.69590000077005,
+      "total_ms": 35.969399999885354,
+      "gates": 4
+    },
+    {
+      "window": "flight-04a-ellipse__p50",
+      "source_id": "01695_1691758671240066",
+      "decode_ms": 1.2901999998575775,
+      "inference_ms": 47.592099999747006,
+      "total_ms": 48.882299999604584,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p50",
+      "source_id": "01729_1691758671522754",
+      "decode_ms": 1.605500000550819,
+      "inference_ms": 33.68419999969774,
+      "total_ms": 35.28970000024856,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p50",
+      "source_id": "01764_1691758671815431",
+      "decode_ms": 1.3075999995635357,
+      "inference_ms": 45.30460000023595,
+      "total_ms": 46.612199999799486,
+      "gates": 1
+    },
+    {
+      "window": "flight-04a-ellipse__p50",
+      "source_id": "01798_1691758672098712",
+      "decode_ms": 1.4953999998397194,
+      "inference_ms": 44.18690000056813,
+      "total_ms": 45.68230000040785,
+      "gates": 4
+    },
+    {
+      "window": "flight-04a-ellipse__p50",
+      "source_id": "01832_1691758672380612",
+      "decode_ms": 1.4159000002109678,
+      "inference_ms": 37.11230000044452,
+      "total_ms": 38.52820000065549,
+      "gates": 4
+    },
+    {
+      "window": "flight-04a-ellipse__p50",
+      "source_id": "01866_1691758672664583",
+      "decode_ms": 1.4336000003822846,
+      "inference_ms": 47.45519999960379,
+      "total_ms": 48.88879999998608,
+      "gates": 4
+    },
+    {
+      "window": "flight-04a-ellipse__p75",
+      "source_id": "02500_1691758677948099",
+      "decode_ms": 1.4713999999003136,
+      "inference_ms": 43.3614999992642,
+      "total_ms": 44.83289999916451,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p75",
+      "source_id": "02534_1691758678232087",
+      "decode_ms": 1.4154999998936546,
+      "inference_ms": 39.98220000084984,
+      "total_ms": 41.3977000007435,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p75",
+      "source_id": "02568_1691758678514680",
+      "decode_ms": 1.463099999455153,
+      "inference_ms": 42.045799999868905,
+      "total_ms": 43.50889999932406,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p75",
+      "source_id": "02602_1691758678797838",
+      "decode_ms": 1.4121000003797235,
+      "inference_ms": 42.101699999875564,
+      "total_ms": 43.51380000025529,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p75",
+      "source_id": "02637_1691758679090419",
+      "decode_ms": 1.501799999459763,
+      "inference_ms": 38.75220000008994,
+      "total_ms": 40.253999999549706,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p75",
+      "source_id": "02671_1691758679373013",
+      "decode_ms": 1.509499999883701,
+      "inference_ms": 36.05240000069898,
+      "total_ms": 37.56190000058268,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p75",
+      "source_id": "02705_1691758679656068",
+      "decode_ms": 1.4879000000291853,
+      "inference_ms": 31.910799999423034,
+      "total_ms": 33.39869999945222,
+      "gates": 2
+    },
+    {
+      "window": "flight-04a-ellipse__p75",
+      "source_id": "02739_1691758679940844",
+      "decode_ms": 1.4393999999811058,
+      "inference_ms": 37.632900000062364,
+      "total_ms": 39.07230000004347,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p25",
+      "source_id": "00709_1691768712555247",
+      "decode_ms": 1.653400000577676,
+      "inference_ms": 41.735899999366666,
+      "total_ms": 43.38929999994434,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p25",
+      "source_id": "00743_1691768712839001",
+      "decode_ms": 1.3816000000588247,
+      "inference_ms": 34.676999999646796,
+      "total_ms": 36.05859999970562,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p25",
+      "source_id": "00777_1691768713122044",
+      "decode_ms": 1.3746000004175585,
+      "inference_ms": 38.533999999344815,
+      "total_ms": 39.90859999976237,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p25",
+      "source_id": "00811_1691768713405542",
+      "decode_ms": 1.527899999928195,
+      "inference_ms": 32.0054000003438,
+      "total_ms": 33.53330000027199,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p25",
+      "source_id": "00846_1691768713696892",
+      "decode_ms": 1.3756999996985542,
+      "inference_ms": 37.701400000514695,
+      "total_ms": 39.07710000021325,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p25",
+      "source_id": "00880_1691768713980466",
+      "decode_ms": 1.3668999999936204,
+      "inference_ms": 34.375700000055076,
+      "total_ms": 35.7426000000487,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p25",
+      "source_id": "00914_1691768714263445",
+      "decode_ms": 1.3643000002048211,
+      "inference_ms": 35.85629999997764,
+      "total_ms": 37.22060000018246,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p25",
+      "source_id": "00948_1691768714547630",
+      "decode_ms": 1.3786999998046667,
+      "inference_ms": 45.39770000064891,
+      "total_ms": 46.77640000045358,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p50",
+      "source_id": "01537_1691768719454920",
+      "decode_ms": 1.3078000001769396,
+      "inference_ms": 39.19949999999517,
+      "total_ms": 40.50730000017211,
+      "gates": 1
+    },
+    {
+      "window": "flight-10a-lemniscate__p50",
+      "source_id": "01571_1691768719739411",
+      "decode_ms": 1.4542999997502193,
+      "inference_ms": 38.61810000034893,
+      "total_ms": 40.07240000009915,
+      "gates": 3
+    },
+    {
+      "window": "flight-10a-lemniscate__p50",
+      "source_id": "01605_1691768720021733",
+      "decode_ms": 1.3380000000324799,
+      "inference_ms": 40.81040000073699,
+      "total_ms": 42.14840000076947,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p50",
+      "source_id": "01639_1691768720303963",
+      "decode_ms": 1.3456000006044633,
+      "inference_ms": 37.55079999973532,
+      "total_ms": 38.89640000033978,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p50",
+      "source_id": "01674_1691768720596682",
+      "decode_ms": 1.342500000646396,
+      "inference_ms": 37.67559999960213,
+      "total_ms": 39.01810000024852,
+      "gates": 3
+    },
+    {
+      "window": "flight-10a-lemniscate__p50",
+      "source_id": "01708_1691768720880355",
+      "decode_ms": 1.2980000001334702,
+      "inference_ms": 37.80910000023141,
+      "total_ms": 39.10710000036488,
+      "gates": 1
+    },
+    {
+      "window": "flight-10a-lemniscate__p50",
+      "source_id": "01742_1691768721163618",
+      "decode_ms": 1.330699999925855,
+      "inference_ms": 38.8399000003119,
+      "total_ms": 40.170600000237755,
+      "gates": 1
+    },
+    {
+      "window": "flight-10a-lemniscate__p50",
+      "source_id": "01776_1691768721446856",
+      "decode_ms": 1.4111000000411877,
+      "inference_ms": 34.452100000635255,
+      "total_ms": 35.86320000067644,
+      "gates": 3
+    },
+    {
+      "window": "flight-10a-lemniscate__p75",
+      "source_id": "02365_1691768726355862",
+      "decode_ms": 1.6776000002209912,
+      "inference_ms": 34.482699999898614,
+      "total_ms": 36.160300000119605,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p75",
+      "source_id": "02399_1691768726638806",
+      "decode_ms": 1.352999999653548,
+      "inference_ms": 35.92060000028141,
+      "total_ms": 37.27359999993496,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p75",
+      "source_id": "02433_1691768726922325",
+      "decode_ms": 1.358500000606,
+      "inference_ms": 41.496599999845785,
+      "total_ms": 42.855100000451785,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p75",
+      "source_id": "02467_1691768727205321",
+      "decode_ms": 1.5089999997144332,
+      "inference_ms": 35.39980000005016,
+      "total_ms": 36.9087999997646,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p75",
+      "source_id": "02502_1691768727496816",
+      "decode_ms": 1.4289999999164138,
+      "inference_ms": 35.448799999358016,
+      "total_ms": 36.87779999927443,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p75",
+      "source_id": "02536_1691768727783095",
+      "decode_ms": 1.3994999999340507,
+      "inference_ms": 31.295299999328563,
+      "total_ms": 32.694799999262614,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p75",
+      "source_id": "02570_1691768728062674",
+      "decode_ms": 1.3449000007312861,
+      "inference_ms": 49.00039999938599,
+      "total_ms": 50.34530000011728,
+      "gates": 2
+    },
+    {
+      "window": "flight-10a-lemniscate__p75",
+      "source_id": "02604_1691768728345924",
+      "decode_ms": 1.3734999993175734,
+      "inference_ms": 39.909500000248954,
+      "total_ms": 41.28299999956653,
+      "gates": 2
+    },
+    {
+      "window": "flight-01p-ellipse__p25",
+      "source_id": "03047_1691231754437979",
+      "decode_ms": 1.5411000003950903,
+      "inference_ms": 32.185199999730685,
+      "total_ms": 33.726300000125775,
+      "gates": 6
+    },
+    {
+      "window": "flight-01p-ellipse__p25",
+      "source_id": "03081_1691231754721343",
+      "decode_ms": 1.5428999995492632,
+      "inference_ms": 34.5882999999958,
+      "total_ms": 36.13119999954506,
+      "gates": 2
+    },
+    {
+      "window": "flight-01p-ellipse__p25",
+      "source_id": "03115_1691231755005519",
+      "decode_ms": 1.8682999998418381,
+      "inference_ms": 33.395800000107556,
+      "total_ms": 35.264099999949394,
+      "gates": 2
+    },
+    {
+      "window": "flight-01p-ellipse__p25",
+      "source_id": "03149_1691231755289358",
+      "decode_ms": 1.5589000004183617,
+      "inference_ms": 33.91479999936564,
+      "total_ms": 35.473699999784,
+      "gates": 3
+    },
+    {
+      "window": "flight-01p-ellipse__p25",
+      "source_id": "03184_1691231755580698",
+      "decode_ms": 1.5376999999716645,
+      "inference_ms": 33.95249999994121,
+      "total_ms": 35.490199999912875,
+      "gates": 2
+    },
+    {
+      "window": "flight-01p-ellipse__p25",
+      "source_id": "03218_1691231755863985",
+      "decode_ms": 1.3744000007136492,
+      "inference_ms": 24.501199999576784,
+      "total_ms": 25.875600000290433,
+      "gates": 0
+    },
+    {
+      "window": "flight-01p-ellipse__p25",
+      "source_id": "03252_1691231756147295",
+      "decode_ms": 1.4982000002419227,
+      "inference_ms": 29.961700000058045,
+      "total_ms": 31.459900000299967,
+      "gates": 2
+    },
+    {
+      "window": "flight-01p-ellipse__p25",
+      "source_id": "03286_1691231756429649",
+      "decode_ms": 1.4646999998149113,
+      "inference_ms": 35.19959999994171,
+      "total_ms": 36.66429999975662,
+      "gates": 4
+    },
+    {
+      "window": "flight-01p-ellipse__p50",
+      "source_id": "06213_1691231780821791",
+      "decode_ms": 1.5821999995750957,
+      "inference_ms": 35.25260000060371,
+      "total_ms": 36.8348000001788,
+      "gates": 4
+    },
+    {
+      "window": "flight-01p-ellipse__p50",
+      "source_id": "06247_1691231781105288",
+      "decode_ms": 1.6283999993902398,
+      "inference_ms": 31.411100000696024,
+      "total_ms": 33.039500000086264,
+      "gates": 4
+    },
+    {
+      "window": "flight-01p-ellipse__p50",
+      "source_id": "06281_1691231781388657",
+      "decode_ms": 1.5898000001470791,
+      "inference_ms": 39.93540000010398,
+      "total_ms": 41.52520000025106,
+      "gates": 5
+    },
+    {
+      "window": "flight-01p-ellipse__p50",
+      "source_id": "06315_1691231781671989",
+      "decode_ms": 1.7464000002291868,
+      "inference_ms": 27.61759999975766,
+      "total_ms": 29.363999999986845,
+      "gates": 4
+    },
+    {
+      "window": "flight-01p-ellipse__p50",
+      "source_id": "06350_1691231781963907",
+      "decode_ms": 1.6335000000253785,
+      "inference_ms": 35.3517000003194,
+      "total_ms": 36.985200000344776,
+      "gates": 5
+    },
+    {
+      "window": "flight-01p-ellipse__p50",
+      "source_id": "06384_1691231782247013",
+      "decode_ms": 1.6884000006029964,
+      "inference_ms": 44.58559999966383,
+      "total_ms": 46.274000000266824,
+      "gates": 3
+    },
+    {
+      "window": "flight-01p-ellipse__p50",
+      "source_id": "06418_1691231782531009",
+      "decode_ms": 1.5450000000782893,
+      "inference_ms": 39.304200000515266,
+      "total_ms": 40.849200000593555,
+      "gates": 2
+    },
+    {
+      "window": "flight-01p-ellipse__p50",
+      "source_id": "06452_1691231782814180",
+      "decode_ms": 1.5573000000586035,
+      "inference_ms": 38.243299999521696,
+      "total_ms": 39.8005999995803,
+      "gates": 3
+    },
+    {
+      "window": "flight-01p-ellipse__p75",
+      "source_id": "09379_1691231807205163",
+      "decode_ms": 1.6083000000435277,
+      "inference_ms": 36.691199999950186,
+      "total_ms": 38.299499999993714,
+      "gates": 4
+    },
+    {
+      "window": "flight-01p-ellipse__p75",
+      "source_id": "09413_1691231807487432",
+      "decode_ms": 1.561299999593757,
+      "inference_ms": 36.070699999982025,
+      "total_ms": 37.63199999957578,
+      "gates": 4
+    },
+    {
+      "window": "flight-01p-ellipse__p75",
+      "source_id": "09447_1691231807772098",
+      "decode_ms": 1.6616000002613873,
+      "inference_ms": 37.77429999991,
+      "total_ms": 39.43590000017139,
+      "gates": 4
+    },
+    {
+      "window": "flight-01p-ellipse__p75",
+      "source_id": "09481_1691231808054615",
+      "decode_ms": 1.599599999281054,
+      "inference_ms": 33.175000000483124,
+      "total_ms": 34.77459999976418,
+      "gates": 2
+    },
+    {
+      "window": "flight-01p-ellipse__p75",
+      "source_id": "09516_1691231808347786",
+      "decode_ms": 1.472500000090804,
+      "inference_ms": 36.30139999950188,
+      "total_ms": 37.773899999592686,
+      "gates": 2
+    },
+    {
+      "window": "flight-01p-ellipse__p75",
+      "source_id": "09550_1691231808630304",
+      "decode_ms": 1.4911999996911618,
+      "inference_ms": 43.51520000000164,
+      "total_ms": 45.0063999996928,
+      "gates": 3
+    },
+    {
+      "window": "flight-01p-ellipse__p75",
+      "source_id": "09584_1691231808913767",
+      "decode_ms": 1.433299999916926,
+      "inference_ms": 43.57189999973343,
+      "total_ms": 45.00519999965036,
+      "gates": 2
+    },
+    {
+      "window": "flight-01p-ellipse__p75",
+      "source_id": "09618_1691231809196554",
+      "decode_ms": 1.5982999993866542,
+      "inference_ms": 36.540400000376394,
+      "total_ms": 38.13869999976305,
+      "gates": 0
+    }
+  ],
+  "note": "source-window timing diagnostic; not a calibrated inference error or final same-budget qualification"
+}

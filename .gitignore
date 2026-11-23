@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+ram/
+runs/
+blind_clips/复核结论.md

@@ -1,0 +1,75 @@
+{
+  "reference_hash": "67e38b9c51b0c1b1d31d2786afeb3689fc60492550157e31dc9fa2823af51645",
+  "qc_tracks": [
+    [
+      0,
+      "centre"
+    ],
+    [
+      0,
+      "left"
+    ],
+    [
+      1,
+      "near-left"
+    ],
+    [
+      1,
+      "near-right"
+    ],
+    [
+      3,
+      "centre"
+    ],
+    [
+      3,
+      "left"
+    ],
+    [
+      4,
+      "left"
+    ],
+    [
+      4,
+      "right"
+    ],
+    [
+      5,
+      "distant"
+    ],
+    [
+      6,
+      "right"
+    ],
+    [
+      7,
+      "left"
+    ],
+    [
+      7,
+      "right"
+    ],
+    [
+      8,
+      "raised"
+    ],
+    [
+      9,
+      "centre"
+    ],
+    [
+      10,
+      "far-right"
+    ]
+  ],
+  "all_tracks": 19,
+  "leave_one_clip_range": [
+    10.782314391952985,
+    23.206253194948804
+  ],
+  "bootstrap_valid": 19927,
+  "conditional_clip_bootstrap_percentiles": [
+    0.38801369550011955,
+    33.86458622396774
+  ]
+}

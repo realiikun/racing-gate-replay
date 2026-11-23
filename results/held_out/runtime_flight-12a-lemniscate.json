@@ -1,0 +1,29 @@
+{
+  "flight-12a-lemniscate": {
+    "frames": 2806,
+    "calls": 328,
+    "returns": 327,
+    "flight_seconds": 23.376001,
+    "new_inferences": 0,
+    "min_median_max_return_ms": [
+      46.7,
+      49.893,
+      53.602
+    ],
+    "actions": {
+      "wait": {
+        "births": 56,
+        "retained_or_updated": 480
+      },
+      "aligned": {
+        "births": 72,
+        "retained_or_updated": 462
+      },
+      "legacy": {
+        "births": 86,
+        "retained_or_updated": 449
+      }
+    },
+    "replay_compute_seconds": 54.980321300005016
+  }
+}

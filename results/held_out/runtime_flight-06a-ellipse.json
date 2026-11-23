@@ -1,0 +1,29 @@
+{
+  "flight-06a-ellipse": {
+    "frames": 3040,
+    "calls": 356,
+    "returns": 355,
+    "flight_seconds": 25.325295,
+    "new_inferences": 0,
+    "min_median_max_return_ms": [
+      46.998,
+      49.903,
+      55.52
+    ],
+    "actions": {
+      "wait": {
+        "births": 165,
+        "retained_or_updated": 579
+      },
+      "aligned": {
+        "births": 134,
+        "retained_or_updated": 610
+      },
+      "legacy": {
+        "births": 161,
+        "retained_or_updated": 579
+      }
+    },
+    "replay_compute_seconds": 62.47304150000127
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "delay_ms": 25.0,
+  "flights": [
+    {
+      "flight": "flight-03a-ellipse",
+      "delay_us": 25000,
+      "returns": 350,
+      "actions": {
+        "wait": {
+          "bad_percent": 40.07516793911014,
+          "unmatched_s": 6.403821000000004
+        },
+        "aligned": {
+          "bad_percent": 27.659034563043495,
+          "unmatched_s": 1.2827020000000002
+        },
+        "legacy": {
+          "bad_percent": 43.125972294991705,
+          "unmatched_s": 2.795403000000001
+        }
+      }
+    },
+    {
+      "flight": "flight-08a-lemniscate",
+      "delay_us": 25000,
+      "returns": 360,
+      "actions": {
+        "wait": {
+          "bad_percent": 65.34973814046155,
+          "unmatched_s": 11.165568
+        },
+        "aligned": {
+          "bad_percent": 50.34122418194284,
+          "unmatched_s": 4.9222680000000025
+        },
+        "legacy": {
+          "bad_percent": 63.291053021893134,
+          "unmatched_s": 4.97711
+        }
+      }
+    },
+    {
+      "flight": "flight-16a-trackRATM",
+      "delay_us": 25000,
+      "returns": 631,
+      "actions": {
+        "wait": {
+          "bad_percent": 78.1470363479383,
+          "unmatched_s": 21.856830000000063
+        },
+        "aligned": {
+          "bad_percent": 61.70770355362138,
+          "unmatched_s": 7.145695000000003
+        },
+        "legacy": {
+          "bad_percent": 70.1411700288507,
+          "unmatched_s": 12.523667000000003
+        }
+      }
+    }
+  ],
+  "order": [
+    "wait",
+    "aligned",
+    "legacy"
+  ],
+  "mean": [
+    61.19064747583666,
+    46.56932076620257,
+    58.85273178191184
+  ],
+  "intervals": [
+    [
+      40.07516793911014,
+      27.659034563043495,
+      43.125972294991705
+    ],
+    [
+      78.1470363479383,
+      61.70770355362138,
+      70.1411700288507
+    ]
+  ],
+  "diff": [
+    14.62132670963409,
+    12.416133376066645,
+    16.43933279431692
+  ],
+  "unmatched": [
+    39.42621900000007,
+    13.350665000000006,
+    20.296180000000003
+  ]
+}

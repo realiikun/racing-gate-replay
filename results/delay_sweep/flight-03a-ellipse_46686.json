@@ -1,0 +1,19 @@
+{
+  "flight": "flight-03a-ellipse",
+  "delay_us": 46686,
+  "returns": 350,
+  "actions": {
+    "wait": {
+      "bad_percent": 40.18369765551283,
+      "unmatched_s": 6.439968000000006
+    },
+    "aligned": {
+      "bad_percent": 28.485492369780108,
+      "unmatched_s": 1.254004
+    },
+    "legacy": {
+      "bad_percent": 47.98666416941098,
+      "unmatched_s": 4.242552999999999
+    }
+  }
+}

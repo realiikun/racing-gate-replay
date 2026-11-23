@@ -1,0 +1,19 @@
+{
+  "flight": "flight-16a-trackRATM",
+  "delay_us": 150000,
+  "returns": 627,
+  "actions": {
+    "wait": {
+      "bad_percent": 65.07185546823017,
+      "unmatched_s": 244.840571999999
+    },
+    "aligned": {
+      "bad_percent": 66.07282774766553,
+      "unmatched_s": 308.9774859999999
+    },
+    "legacy": {
+      "bad_percent": 68.5745481199698,
+      "unmatched_s": 305.47771499999953
+    }
+  }
+}

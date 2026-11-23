@@ -1,0 +1,138 @@
+{
+  "method": "Waiting minus aligned. Paired within windows and averaged within flight. Three flights weighted equally and resampled as whole clusters with replacement. Percentile 95% intervals, 10,000 draws, seed 20261123. Only three distinct flights contribute. Interpret the discrete intervals descriptively. The 16 radius-by-duration settings are exploratory, with no family-wise inference.",
+  "maximum_error_s": 5.551115123125783e-17,
+  "results": {
+    "0.025": {
+      "mean": -1.6507176801331696,
+      "lo": -14.22869710251048,
+      "hi": 7.89598534548297,
+      "per_flight": {
+        "flight-03a-ellipse": {
+          "aligned": 78.08694123564109,
+          "legacy": 86.7854625803165,
+          "wait": 63.85824413313061
+        },
+        "flight-08a-lemniscate": {
+          "aligned": 91.75938872358294,
+          "legacy": 94.90284314708988,
+          "wait": 99.65537406906591
+        },
+        "flight-16a-trackRATM": {
+          "aligned": 93.81684719347103,
+          "legacy": 96.13834640053544,
+          "wait": 95.19740591009904
+        }
+      }
+    },
+    "0.05": {
+      "mean": 14.410132272514938,
+      "lo": 11.69820528573245,
+      "hi": 16.40734967557347,
+      "per_flight": {
+        "flight-03a-ellipse": {
+          "aligned": 28.48549236978013,
+          "legacy": 47.98666416941079,
+          "wait": 40.18369765551258
+        },
+        "flight-08a-lemniscate": {
+          "aligned": 50.778785480786006,
+          "legacy": 66.83299915186855,
+          "wait": 65.9036273370249
+        },
+        "flight-16a-trackRATM": {
+          "aligned": 62.30458259682163,
+          "legacy": 72.10915231559045,
+          "wait": 78.7119322723951
+        }
+      }
+    },
+    "0.075": {
+      "mean": 17.667128515579265,
+      "lo": 14.96456345519018,
+      "hi": 19.645540864099374,
+      "per_flight": {
+        "flight-03a-ellipse": {
+          "aligned": 13.944464043955907,
+          "legacy": 35.37082432854627,
+          "wait": 28.909027499146088
+        },
+        "flight-08a-lemniscate": {
+          "aligned": 24.88496233152391,
+          "legacy": 42.21113218082515,
+          "wait": 44.53050319562328
+        },
+        "flight-16a-trackRATM": {
+          "aligned": 43.69874704408012,
+          "legacy": 56.9906609445094,
+          "wait": 62.09002827152836
+        }
+      }
+    },
+    "0.1": {
+      "mean": 16.439992416496555,
+      "lo": 13.446188845823754,
+      "hi": 19.959484290104072,
+      "per_flight": {
+        "flight-03a-ellipse": {
+          "aligned": 10.552719681147648,
+          "legacy": 29.37542635665172,
+          "wait": 23.9989085269714
+        },
+        "flight-08a-lemniscate": {
+          "aligned": 17.301842032829086,
+          "legacy": 36.13908018365392,
+          "wait": 33.216146146390926
+        },
+        "flight-16a-trackRATM": {
+          "aligned": 32.749128101597634,
+          "legacy": 47.55339281385127,
+          "wait": 52.708612391701706
+        }
+      }
+    },
+    "common": {
+      "mean": -11.772952645734094,
+      "lo": -18.797133333333267,
+      "hi": -2.2158110236220665,
+      "per_flight": {
+        "flight-03a-ellipse": {
+          "wait": 9.039866141732295,
+          "aligned": 11.255677165354362,
+          "legacy": 54.96171653543306
+        },
+        "flight-08a-lemniscate": {
+          "wait": 25.35446666666665,
+          "aligned": 44.15159999999992,
+          "legacy": 78.60061666666677
+        },
+        "flight-16a-trackRATM": {
+          "wait": 10.398864197530893,
+          "aligned": 24.704777777777842,
+          "legacy": 51.65097530864209
+        }
+      }
+    },
+    "continuous": {
+      "mean": 73.79259899873631,
+      "lo": 40.52351181102364,
+      "hi": 100.77076666666672,
+      "per_flight": {
+        "flight-03a-ellipse": {
+          "wait": 54.04612598425198,
+          "aligned": 13.522614173228341,
+          "legacy": 62.680078740157526
+        },
+        "flight-08a-lemniscate": {
+          "wait": 150.55321666666663,
+          "aligned": 49.782449999999905,
+          "legacy": 98.31186666666662
+        },
+        "flight-16a-trackRATM": {
+          "wait": 107.98171604938273,
+          "aligned": 27.89819753086418,
+          "legacy": 62.5910370370378
+        }
+      }
+    }
+  }
+}

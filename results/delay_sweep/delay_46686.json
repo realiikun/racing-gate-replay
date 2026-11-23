@@ -1,0 +1,94 @@
+{
+  "delay_ms": 46.686,
+  "flights": [
+    {
+      "flight": "flight-03a-ellipse",
+      "delay_us": 46686,
+      "returns": 350,
+      "actions": {
+        "wait": {
+          "bad_percent": 40.18369765551283,
+          "unmatched_s": 6.439968000000006
+        },
+        "aligned": {
+          "bad_percent": 28.485492369780108,
+          "unmatched_s": 1.254004
+        },
+        "legacy": {
+          "bad_percent": 47.98666416941098,
+          "unmatched_s": 4.242552999999999
+        }
+      }
+    },
+    {
+      "flight": "flight-08a-lemniscate",
+      "delay_us": 46686,
+      "returns": 360,
+      "actions": {
+        "wait": {
+          "bad_percent": 65.90362733702489,
+          "unmatched_s": 10.887314999999996
+        },
+        "aligned": {
+          "bad_percent": 50.7787854807861,
+          "unmatched_s": 4.606735000000004
+        },
+        "legacy": {
+          "bad_percent": 66.83299915186868,
+          "unmatched_s": 7.859571000000009
+        }
+      }
+    },
+    {
+      "flight": "flight-16a-trackRATM",
+      "delay_us": 46686,
+      "returns": 631,
+      "actions": {
+        "wait": {
+          "bad_percent": 78.71193227239516,
+          "unmatched_s": 21.864982000000058
+        },
+        "aligned": {
+          "bad_percent": 62.304582596821696,
+          "unmatched_s": 7.058684000000005
+        },
+        "legacy": {
+          "bad_percent": 72.10915231559049,
+          "unmatched_s": 20.07604600000001
+        }
+      }
+    }
+  ],
+  "order": [
+    "wait",
+    "aligned",
+    "legacy"
+  ],
+  "mean": [
+    61.59975242164429,
+    47.1896201491293,
+    62.309605212290045
+  ],
+  "intervals": [
+    [
+      40.18369765551283,
+      28.485492369780108,
+      47.98666416941098
+    ],
+    [
+      78.71193227239516,
+      62.304582596821696,
+      72.10915231559049
+    ]
+  ],
+  "diff": [
+    14.410132272514991,
+    11.69820528573272,
+    16.407349675573464
+  ],
+  "unmatched": [
+    39.19226500000006,
+    12.919423000000009,
+    32.178170000000016
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "flight-18a-trackRATM": {
+    "frames": 5802,
+    "calls": 678,
+    "returns": 676,
+    "flight_seconds": 48.375885,
+    "new_inferences": 1,
+    "min_median_max_return_ms": [
+      46.748,
+      49.839,
+      56.265
+    ],
+    "actions": {
+      "wait": {
+        "births": 188,
+        "retained_or_updated": 1026
+      },
+      "aligned": {
+        "births": 135,
+        "retained_or_updated": 1074
+      },
+      "legacy": {
+        "births": 189,
+        "retained_or_updated": 1016
+      }
+    },
+    "replay_compute_seconds": 106.07682699999714
+  }
+}
